@@ -67,6 +67,7 @@ Hình ảnh minh họa:
 <p align="center">
   <img src="docs/h4.jpg" alt="demo-3" width="75%" />
 </p>
+
 ---
 
 ## 🧱 Kiến trúc
