@@ -221,27 +221,9 @@ Quay lại **Terminal 1** (đang chạy server), nhấn **Ctrl + C** để tắt
 ---
 
 ## 🧪 Hướng dẫn test
-### 1) Test nhanh bằng 2 client (đúng theo app hiện tại)
+### 1) Test nhanh bằng 2 client 
 - Làm theo quy trình **3 terminal PowerShell** ở mục **Build & Run**.
 - Sau khi 2 client vào cùng phòng, test gameplay bằng các lệnh `MOVE <0..8>`.
-
-## 🧰 Tips Debug
-- 🐛 Bật log chi tiết: in ra message nhận/gửi
-- 🔎 Dùng `valgrind` để soi leak:
-```bash
-valgrind --leak-check=full ./server
-```
-- 🧵 Nếu dùng thread: cẩn thận race condition (mutex/lock)
-
----
-
-## 🧷 Roadmap (gợi ý nâng cấp)
-- 🌐 Hỗ trợ nhiều rooms + matchmaking tự động
-- 🧠 Bot player (AI) cho chế độ 1 người
-- 🧾 Replay lịch sử ván đấu
-- 🔐 Auth đơn giản (username/token)
-- 📊 Stats: số trận thắng/thua, leaderboard
-- 🚀 epoll/kqueue để scale kết nối tốt hơn
 
 ---
 
@@ -251,13 +233,6 @@ A: Realtime game thường dùng TCP cho đơn giản (đảm bảo thứ tự),
 
 ### Q: Khi client disconnect thì sao?
 A: Server nên cleanup session và có thể báo kết quả (đối thủ thắng) hoặc đóng room.
-
-### Q: Làm sao để README khớp 100% code?
-A: Gửi mình:
-- Cây thư mục `src/ include/`
-- File build (Makefile/CMake)
-- File protocol/parse message
-=> Mình sẽ sửa README đúng tên file, đúng port, đúng command.
 
 ---
 
@@ -270,4 +245,3 @@ A: Gửi mình:
 ---
 
 ## 📜 License
-Chưa khai báo license. Nếu bạn muốn open-source chuẩn, mình gợi ý MIT hoặc Apache-2.0
