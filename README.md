@@ -9,14 +9,14 @@
 </p>
 
 <p align="center">
-  <a href="#-tổng-quan">Tổng quan</a> •
-  <a href="#-tính-năng">Tính năng</a> •
-  <a href="#-demo">Demo</a> •
-  <a href="#-kiến-trúc">Kiến trúc</a> •
-  <a href="#-giao-thức-clientserver">Protocol</a> •
-  <a href="#-build--run">Build</a> •
-  <a href="#-hướng-dẫn-test">Test</a> •
-  <a href="#-faq">FAQ</a>
+  <a href="#-tổng-quan">✨ Tổng quan</a> ·
+  <a href="#-tính-năng">🔥 Tính năng</a> ·
+  <a href="#-demo">🖼️ Demo</a> ·
+  <a href="#-kiến-trúc">🧱 Kiến trúc</a> <br/>
+  <a href="#-giao-thức-clientserver">🔌 Protocol</a> ·
+  <a href="#-build--run">🛠️ Build</a> ·
+  <a href="#-hướng-dẫn-test">🧪 Test</a> ·
+  <a href="#-faq">❓ FAQ</a>
 </p>
 
 ---
