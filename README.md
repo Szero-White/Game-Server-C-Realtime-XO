@@ -151,12 +151,10 @@ Ví dụ nhúng ảnh:
 { "type": "move", "row": 1, "col": 2 }
 ```
 
-> ⚠️ Nếu code của bạn đã có protocol riêng, mình có thể viết README “đúng theo message thực tế” bằng cách đọc file protocol/parse.
-
 ---
 
 ## 🛠️ Build & Run
-> Vì chưa đọc Makefile/CMake thật của repo, mình để 2 cách phổ biến. Bạn chọn 1 cái phù hợp và chỉnh lại.
+> Giữ nguyên phần build mẫu bên dưới; phần **chạy thực tế** theo đúng repo/ứng dụng của bạn nằm ở mục **“Chạy server & client (PowerShell, build_ascii)”**.
 
 ### ✅ Cách 1: GCC nhanh
 ```bash
@@ -175,26 +173,57 @@ make
 ./client 127.0.0.1 7777
 ```
 
+### ▶️ Chạy server & client (PowerShell, build_ascii)
+Mở **3 terminal PowerShell riêng**, làm đúng thứ tự này:
+
+**Terminal 1: chạy server**
+```powershell
+cd "D:\Học tập\Game Server C++ Realtime XO\build_ascii"
+.\nexon_mini_server.exe
+```
+
+**Terminal 2: Client A (tạo phòng)**
+```powershell
+cd "D:\Học tập\Game Server C++ Realtime XO\build_ascii"
+.\nexon_mini_client.exe
+```
+Sau khi vào client, gõ:
+```text
+LOGIN alice
+CREATE_ROOM phong1
+```
+
+**Terminal 3: Client B (join phòng)**
+```powershell
+cd "D:\Học tập\Game Server C++ Realtime XO\build_ascii"
+.\nexon_mini_client.exe
+```
+Sau khi vào client, gõ:
+```text
+LOGIN bob
+LIST_ROOMS
+JOIN_ROOM 1
+```
+
+### 🎮 Chơi XO (lệnh MOVE)
+Hai client thay phiên gõ lệnh:
+```text
+MOVE 0
+MOVE 4
+MOVE 1
+...
+```
+Ô hợp lệ là từ **0 đến 8**.
+
+### ⏹️ Dừng server
+Quay lại **Terminal 1** (đang chạy server), nhấn **Ctrl + C** để tắt.
+
 ---
 
 ## 🧪 Hướng dẫn test
-### 1) Test bằng 2 terminal (giả lập 2 người chơi)
-- Terminal 1: kết nối player 1
-- Terminal 2: kết nối player 2
-
-Nếu dùng text protocol, bạn có thể test bằng:
-```bash
-nc 127.0.0.1 7777
-```
-
-Gõ thử:
-```text
-JOIN room1
-MOVE 0 0
-MOVE 0 1
-```
-
----
+### 1) Test nhanh bằng 2 client (đúng theo app hiện tại)
+- Làm theo quy trình **3 terminal PowerShell** ở mục **Build & Run**.
+- Sau khi 2 client vào cùng phòng, test gameplay bằng các lệnh `MOVE <0..8>`.
 
 ## 🧰 Tips Debug
 - 🐛 Bật log chi tiết: in ra message nhận/gửi
