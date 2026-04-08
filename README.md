@@ -227,21 +227,4 @@ Quay lại **Terminal 1** (đang chạy server), nhấn **Ctrl + C** để tắt
 
 ---
 
-## ❓ FAQ
-### Q: Server dùng TCP hay UDP?
-A: Realtime game thường dùng TCP cho đơn giản (đảm bảo thứ tự), nhưng có thể dùng UDP cho latency thấp. (Tùy code bạn đang triển khai.)
-
-### Q: Khi client disconnect thì sao?
-A: Server nên cleanup session và có thể báo kết quả (đối thủ thắng) hoặc đóng room.
-
----
-
-## 🤝 Đóng góp
-- Fork repo 🍴
-- Tạo branch: `feature/your-feature`
-- Commit rõ ràng ✅
-- Mở Pull Request 🚀
-
----
-
 ## 📜 License
