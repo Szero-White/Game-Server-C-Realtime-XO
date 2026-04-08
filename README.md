@@ -53,17 +53,20 @@ Dự án này là một **game server realtime** cho trò chơi **XO (Tic-Tac-To
 Ví dụ nhúng ảnh:
 
 <p align="center">
-  <img src="docs/demo-1.png" alt="demo-1" width="75%" />
+  <img src="docs/h1.jpg" alt="demo-1" width="75%" />
 </p>
 
 <p align="center">
-  <img src="docs/demo-2.png" alt="demo-2" width="75%" />
+  <img src="docs/h2.jpg" alt="demo-2" width="75%" />
 </p>
 
 <p align="center">
-  <img src="docs/demo-3.png" alt="demo-3" width="75%" />
+  <img src="docs/h3.jpg" alt="demo-3" width="75%" />
 </p>
 
+<p align="center">
+  <img src="docs/h4.jpg" alt="demo-3" width="75%" />
+</p>
 ---
 
 ## 🧱 Kiến trúc
