@@ -1,5 +1,5 @@
-# 🎮 Game Server C - Realtime XO (Tic-Tac-Toe) ⚡️
-> **Realtime Multiplayer XO** viết bằng **C** — tập trung vào hiệu năng, xử lý socket, và đồng bộ trạng thái ván chơi.
+# 🎮 Game Server C++ - Realtime XO (Tic-Tac-Toe) ⚡️
+> **Realtime Multiplayer XO** viết bằng **C++** — tập trung vào hiệu năng, xử lý socket, và đồng bộ trạng thái ván chơi.
 
 <p align="center">
   <img alt="C" src="https://img.shields.io/badge/Language-C-blue.svg">
@@ -22,7 +22,7 @@
 ---
 
 ## ✨ Tổng quan
-Dự án này là một **game server realtime** cho trò chơi **XO (Tic-Tac-Toe)**, viết bằng **C** nhằm:
+Dự án này là một **game server realtime** cho trò chơi **XO (Tic-Tac-Toe)**, viết bằng **C++** nhằm:
 - ⚙️ Hiểu sâu về **Socket programming** (TCP/UDP tùy triển khai)
 - 🧠 Tổ chức **state game** + **room/matchmaking**
 - 🔄 Xử lý đồng thời nhiều client (thread/select/epoll tùy)
@@ -71,7 +71,7 @@ Hình ảnh minh họa:
 ---
 
 ## 🧱 Kiến trúc
-> (Mô tả theo mô hình chuẩn của game server realtime bằng C)
+> (Mô tả theo mô hình chuẩn của game server realtime bằng C++)
 
 ### 1) 📦 Thành phần chính
 - 🖧 **Network Layer**
