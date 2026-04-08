@@ -1,0 +1,4 @@
+D:/Học tập/Game Server Mini/build_fresh/CMakeFiles/nexon_mini_server.dir
+D:/Học tập/Game Server Mini/build_fresh/CMakeFiles/nexon_mini_client.dir
+D:/Học tập/Game Server Mini/build_fresh/CMakeFiles/edit_cache.dir
+D:/Học tập/Game Server Mini/build_fresh/CMakeFiles/rebuild_cache.dir

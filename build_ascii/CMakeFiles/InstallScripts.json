@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/GameServerMiniAscii/build_ascii/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

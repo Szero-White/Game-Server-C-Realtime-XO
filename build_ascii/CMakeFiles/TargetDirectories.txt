@@ -1,0 +1,5 @@
+D:/GameServerMiniAscii/build_ascii/CMakeFiles/nexon_mini_server.dir
+D:/GameServerMiniAscii/build_ascii/CMakeFiles/nexon_mini_client.dir
+D:/GameServerMiniAscii/build_ascii/CMakeFiles/nexon_mini_client_gui.dir
+D:/GameServerMiniAscii/build_ascii/CMakeFiles/edit_cache.dir
+D:/GameServerMiniAscii/build_ascii/CMakeFiles/rebuild_cache.dir
