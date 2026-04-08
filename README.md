@@ -50,7 +50,7 @@ Dự án này là một **game server realtime** cho trò chơi **XO (Tic-Tac-To
 - `docs/demo-2.png`
 - `docs/demo-3.png`
 
-Ví dụ nhúng ảnh:
+Hình ảnh minh họa:
 
 <p align="center">
   <img src="docs/h1.jpg" alt="demo-1" width="75%" />
